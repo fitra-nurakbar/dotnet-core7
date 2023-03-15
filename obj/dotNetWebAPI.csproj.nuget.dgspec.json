@@ -1,0 +1,70 @@
+{
+  "format": 1,
+  "restore": {
+    "/media/fitra/5458509E3C0F73A1/learning/dotNetWebAPI/dotNetWebAPI.csproj": {}
+  },
+  "projects": {
+    "/media/fitra/5458509E3C0F73A1/learning/dotNetWebAPI/dotNetWebAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/media/fitra/5458509E3C0F73A1/learning/dotNetWebAPI/dotNetWebAPI.csproj",
+        "projectName": "dotNetWebAPI",
+        "projectPath": "/media/fitra/5458509E3C0F73A1/learning/dotNetWebAPI/dotNetWebAPI.csproj",
+        "packagesPath": "/home/fitra/.nuget/packages/",
+        "outputPath": "/media/fitra/5458509E3C0F73A1/learning/dotNetWebAPI/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/fitra/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.32.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
